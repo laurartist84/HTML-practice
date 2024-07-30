@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Session One</title>
 </head>
+<title>Spells</title>
 <body>
-    Sercomber
-    <img src="../images/secomber map.jpeg" width="800px"/>
+    This is magic!
+</body>
+</html>
