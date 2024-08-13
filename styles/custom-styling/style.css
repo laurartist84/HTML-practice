@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+  background-color: white;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: black;
+} */
+
+h1 {
+  text-align: center;
+}
+
+.foobar ul {
+  list-style-type: none;
+  /* background-color: rgb(103, 101, 101); */
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.foobar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  border-radius: 12px;
+  background-color: black;
+  margin: 0 10px;
+}
+.foobar a:hover {
+  background-color: rgb(47, 46, 46);
+}
+.foobar li {
+  float: left;
+}

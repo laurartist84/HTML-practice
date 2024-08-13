@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styles</title>
+    <style>
+        div {
+            border: 1px solid black;
+            padding: 12px;
+            margin: 10px;
+        }
+        div > * {
+            border: 1px solid green;
+        }
+        div > div {
+            border: 1px solid red;
+        }
+
+        .sidebar {
+            float: left;
+
+            width: 180px;
+        }
+
+        .main {
+            background-color: honeydew;
+            border: 1px solid blue;
+        }
+
+        ul { overflow: auto;}
+        ul li { float: left; }
+
+
+        .card {
+            padding: 0;
+            margin: 0;
+            border-radius: 12px;
+        }
+        .card-header {
+           margin: 0;
+           padding: 8px;
+           padding-bottom: 72px;
+        }
+        .card-header h1 {
+            margin: 0;
+        }
+        .card-body {
+            padding: 0;
+            margin: 0;
+        }
+        p {
+            margin: 0;
+            /* padding: 12px 80px; top-bottom left-right */
+            padding: 12px 80px 12px 80px; /* top right bottom left */
+        }
+    </style>
+</head>
+<body>
+<!-- page with a header, sidebar, main and footer -->
+<div>
+    <span>logo</span>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Page</a></li>
+    </ul>
+</div>
+<div>
+    <div class="sidebar">Sidebar</div>
+    <div class="main">Main</div>
+</div>
+<div>Footer</div>
+
+
+<div class="card">
+    <div class="card-header">
+        <h1>Card Title</h1>
+    </div>
+    <div class="card-body">
+        <p>Some Name</p>
+        <p>Some Description</p>
+    </div>
+    <div class="card-footer">
+        <p>Card Footer</p>
+    </div>
+</div>
+</body>
+</html>
