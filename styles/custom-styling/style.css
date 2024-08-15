@@ -17,14 +17,14 @@ h1 {
   text-align: center;
 }
 
-.foobar ul {
+.navbar ul {
   list-style-type: none;
   /* background-color: rgb(103, 101, 101); */
   padding: 0px;
   margin: 0px;
   overflow: hidden;
 }
-.foobar a {
+.navbar a {
   color: white;
   text-decoration: none;
   padding: 15px;
@@ -37,9 +37,9 @@ h1 {
   background-color: black;
   margin: 0 10px;
 }
-.foobar a:hover {
+.navbar a:hover {
   background-color: rgb(47, 46, 46);
 }
-.foobar li {
+.navbar li {
   float: left;
 }
