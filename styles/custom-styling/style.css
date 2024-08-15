@@ -5,16 +5,6 @@ body {
   padding-right: 50px;
 }
 
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  color: black;
-} */
-
 h1 {
   text-align: center;
 }
@@ -32,10 +22,10 @@ h1 {
   padding: 15px;
   display: block;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   font-family: Helvetica, Arial, sans-serif;
-  border-radius: 12px;
+  border-radius: 10px;
   background-color: black;
   margin: 0 10px;
 }
